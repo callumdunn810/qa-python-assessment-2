@@ -31,7 +31,12 @@
 # How does a for loop iterate through a string?
 
 def one(string):
-    return ""
+    callum = " "
+    for i in range len(str):
+        callum = result + str[i]
+        callum = result + str[i]
+        
+    return result
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -52,7 +57,11 @@ def one(string):
 
 
 def two(number):
-    return False
+    num = 11
+    if num % i == 0:
+        return True
+    else:
+        return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -72,8 +81,12 @@ def two(number):
 
 
 def three(a):
+    a = int(input())
+    result = a
+    for i in range(a + 1):
+        result = result + int(str(a * i))
+        print(result * i)
     return 1
-
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
     # <QUESTION 4>
